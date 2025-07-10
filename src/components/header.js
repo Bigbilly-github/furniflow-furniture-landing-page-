@@ -1,13 +1,13 @@
 'use client'
 import { Menu, ShoppingCart, User } from 'lucide-react'
-import React, { useState } from 'react'
+import { useState } from 'react'
 
 const Header = () => {
     const navitems= ["Home", "Services", "Blog", "Contact Us"];
     const [open,setOpen]= useState(false);
   return (
     <>
-     <header className='flex w-full fixed top-0 left-0 right-0 z-100 justify-center items-center md:h-[100px] h-[80px] bg-[#35736E]'>
+     <header className='flex w-full fixed top-0 left-0 right-0 z-100 justify-center items-center md:h-[100px] h-[80px] bg-[#3B5D50]'>
         <div className='flex justify-between items-center w-[90%]'>
             <div className='flex gap-[20px] items-center'>
                 <div className='relative '>
