@@ -23,7 +23,7 @@ const Header = () => {
 
                 </div>
              
-                  <p className='font-medium lg:text-[32px] md:text-[24px] text-[18px] '>
+                  <p className='font-bold text-[#F9BF29] lg:text-[32px] md:text-[24px] text-[18px] '>
                         Woodnest
                    </p>
 
