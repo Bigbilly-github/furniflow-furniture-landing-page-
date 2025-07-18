@@ -1,9 +1,14 @@
-import {  Inter,  Montserrat } from "next/font/google";
+import {  Inter,  Montserrat, Oxygen } from "next/font/google";
 
 import "./globals.css";
 
 
 
+const oxygen = Oxygen({
+  subsets: ["latin"],
+   weight: ["300", "400", "700"],
+  variable: "--font-oxygen", 
+});
 
 
 const inter = Inter({
@@ -25,9 +30,9 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" >
+    <html lang="en"  >
       <body
-        className={` ${montserrat.variable} antialiased`}
+        className={` ${montserrat.className} antialiased`}
       >
         {children}
       </body>

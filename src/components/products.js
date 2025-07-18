@@ -27,29 +27,29 @@ const Products = () => {
     ]
   return (
         <>
-        <section className='w-full flex justify-center h-[800px] items-center bg-[#D9D9D9]'>
-            <div className='w-[90%] h-[500px]  flex items-start  gap-[50px] '>
-                <div>
-                    <h1 className='text-[34px] font-semibold w-[297px] text-[#2F2F2F]'>
+        <section className='w-full flex justify-center sm:h-[600px] h-[500px] items-center bg-[#D9D9D9]'>
+            <div className='w-[90%] h-[400px] sm:h-[500px] flex flex-col sm:flex-row sm:items-start  md:gap-[50px] gap-[30px]  '>
+                <div className='self-center sm:self-start flex sm:items-start items-center flex-col '>
+                    <h1 className='lg:text-[34px] md:text-[28px] sm:text-[20px]   font-semibold lg:w-[297px] sm:w-[180px] text-[#2F2F2F]'>
                         Crafted with excellent material.
                     </h1>
-                    <p className='w-[228px] text-[#6A6A6A] leading-6 mt-[27px]'>
+                    <p className='md:w-[228px] sm:w-[180px] md:text-[18px] text-[14px] text-[#6A6A6A] leading-6 md:mt-[27px] sm:mt-[10px]'>
                         Donec mattis porta eros, aliquet finibus risus interdum at. Nulla vivethe as it was for us to know what was to be done.
                     </p>
-                    <button className='w-[120px] h-[50px] bg-black text-[16px] font-medium text-white rounded-[30px] mt-[30px] '>
+                    <button className='w-[120px] h-[50px]  bg-black text-[16px] font-medium text-white rounded-[30px] lg:mt-[30px] mt-[20px] '>
                         Explore
                     </button>
                 </div>
-                <div className='flex flex-1 justify-between '>
+                <div className='flex flex-1 justify-between  '>
                     {products.map((product,index)=> (
-                    <motion.div key={index} className='flex relative  group flex-col gap-[50px]'
+                    <motion.div key={index} className='flex relative  group flex-col md:gap-[50px]  sm:gap-[20px] md:w-[150px] sm:w-[100px] xl:w-auto w-[90px] '
                      whileHover={{scale:1.1}}>
-                        <Image src={product.image} alt='product 1' className=' object-contain'/>
+                        <Image src={product.image}  alt={`product ${index +1}`} className=' object-contain  ' />
                         <div className='text-center  '>
-                            <p className='font-sembold text-[16px] text-[#2F2F2F] leading-6'>
+                            <p className='font-sembold sm:text-[16px] text-[14px] text-[#2F2F2F] leading-6'>
                                {product.name}
                             </p>
-                            <p className='font-bold text-[18px] text-[#2F2F2F] leading-6'>
+                            <p className='font-bold sm:text-[16px] md:text-[18px] text-[14px] text-[#2F2F2F] leading-6'>
                                 ${product.price}
 
                             </p>

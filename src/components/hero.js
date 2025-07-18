@@ -7,13 +7,13 @@ import { motion } from 'framer-motion'
 const Hero = () => {
   return (
     <>
-    <section className='sm:h-[620px] h-[400px] w-full flex justify-center items-center mt-[80px] bg-[#3B5D50] '>
-        <motion.div className='w-[90%] sm:h-[500px] h-[400px] flex  lg:flex-row justify-between items-center lg:bg-[url("../../public/svg/hero/Dot.svg")]  bg-no-repeat bg-right-top bg-[length:200px_300px] rounded-[20px] p-[30px] flex-col  gap-[30px]'
+    <section className='sm:h-[550px] lg:h-[620px] h-[400px] w-full flex justify-center items-center mt-[80px] bg-[#3B5D50] '>
+        <motion.div className='w-[90%] sm:h-[500px] h-[380px] flex  lg:flex-row justify-between items-center lg:bg-[url("../../public/svg/hero/Dot.svg")]  bg-no-repeat bg-right-top bg-[length:200px_300px] rounded-[20px] p-[30px] flex-col  gap-[30px]'
          initial={{ opacity: 0, y: 50 }}
          animate={{ opacity: 1, y: 0 }}
          transition={{ duration: 2.5, ease: "easeInOut" }}>
             <div className=' flex flex-col justify-between  lg:items-start items-center xl:h-[280px] '>
-                <h1 className='xl:text-[54px] md:text-[40px] sm:text-[36px] text-[20px] font-semibold lg:w-[433px]'>
+                <h1 className='xl:text-[54px] md:text-[40px] sm:text-[32px] text-[20px] font-semibold lg:w-[533px]'>
                     Modern Interior Design Studio
                 </h1>
                 <div className='flex gap-[20px] mt-[30px] xl:mt-0'>
@@ -26,7 +26,7 @@ const Hero = () => {
                 </div>
 
             </div>
-            <Image src={couch} alt='image of a couch' className='object-contain sm:w-[400px] sm:h-[400px] lg:w-[500px] lg:h-[500px] xl:w-[700px] xl:h-[700px]'/>
+            <Image src={couch} alt='image of a couch' className='object-contain sm:w-[400px] sm:h-[400px] w-[350px] h-[350px] lg:w-[500px] lg:h-[500px] xl:w-[700px] xl:h-[700px]'/>
 
 
         </motion.div>
