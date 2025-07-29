@@ -4,6 +4,7 @@ import Header from "@/components/header";
 import Hero from "@/components/hero";
 import Moderndesign from "@/components/moderndesign";
 import Products from "@/components/products";
+import Testimonial from "@/components/testimonial";
 
 
 export default function Home() {
@@ -15,6 +16,7 @@ export default function Home() {
     <Chooseus/>
     <Moderndesign/>
     <Display/>
+    <Testimonial/>
    
 
   
