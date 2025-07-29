@@ -29,12 +29,12 @@ const Products = () => {
         <>
         <section className='w-full flex  justify-center  sm:h-[400px] h-[450px] items-center  sm:mt-[50px]'>
             <div className='w-[90%] h-[400px] sm:h-[400px] flex flex-col sm:flex-row sm:items-start   md:gap-[50px] gap-[30px]  '>
-                <div className='self-center sm:self-start flex sm:items-start items-center flex-col '>
+                <div className='self-center sm:self-start flex sm:items-start items-center flex-col gap-[5px] '>
                     <h1 className='lg:text-[34px] md:text-[28px] sm:text-[20px]   font-semibold lg:w-[297px] sm:w-[180px] text-[#2F2F2F]'>
                         Crafted with excellent material.
                     </h1>
                     <p className='md:w-[228px] sm:w-[180px] md:text-[18px] text-[14px] text-[#6A6A6A] leading-6 md:mt-[27px] sm:mt-[10px]'>
-                        Donec mattis porta eros, aliquet finibus risus interdum at. Nulla vivethe as it was for us to know what was to be done.
+                        Built with premium, long-lasting materials that combine quality, durability, and style made to elevate your space for years.
                     </p>
                     <button className='w-[120px] h-[50px]  bg-black text-[16px] font-medium text-white rounded-[30px] lg:mt-[30px] mt-[20px] '>
                         Explore

@@ -10,22 +10,22 @@ const Chooseus = () => {
         {
             image:truckicon,
             maintext:"Fast  & Free Shipping ",
-            subtext:"Donec mattis porta eros, aliquet finibus risus interdum at. Nulla vivethe as it was",
+            subtext:"We deliver your furniture quickly and at no extra cost, on-time arrival and no hidden fees.",
         },
          {
             image:bagicon,
             maintext:"Easy to Shop ",
-            subtext:"Donec mattis porta eros, aliquet finibus risus interdum at. Nulla vivethe as it was",
+            subtext:"Our user-friendly platform lets you browse, compare, and buy with ease. Desktop or mobile, shopping with us is effortless and enjoyable.",
         },
          {
             image:returnicon,
             maintext:"Easy to Shop ",
-            subtext:"Donec mattis porta eros, aliquet finibus risus interdum at. Nulla vivethe as it was",
+            subtext:"Each piece is handpicked for quality, comfort, and style. Timeless designs and modern essentials that fit your taste.",
         },
          {
             image:supporticon,
             maintext:"24/7 Support ",
-            subtext:"Donec mattis porta eros, aliquet finibus risus interdum at. Nulla vivethe as it was",
+            subtext:"Our support team is available day and night to assist you, because great service doesn’t sleep.",
         },
 
     ]
@@ -38,8 +38,8 @@ const Chooseus = () => {
                 <h1 className="lg:text-[34px] text-[28px] font-semibold leading-[41px] text-[#2F2F2F]">
                     Why Choose Us
                 </h1>
-                <p className="text-[#6A6A6A] lg:text-[14px] md:text-[12px] text-[18px]  lg:w-[444px] md:w-[350px] mt-[27px] leading-[24px]">
-                    Donec mattis porta eros, aliquet finibus risus interdum at. Nulla vivethe as it was for us to know what was to be done. the
+                <p className="text-[#6A6A6A] lg:text-[14px] md:text-[12px] text-[16px]  lg:w-[444px] md:w-[350px] mt-[27px] leading-[24px]">
+                   Discover the difference with our customer-first approach,round-the-clock support,and smooth, secure, and satisfying shopping experience.
                 </p >
 
             </div>
