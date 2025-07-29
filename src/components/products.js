@@ -27,8 +27,8 @@ const Products = () => {
     ]
   return (
         <>
-        <section className='w-full flex justify-center sm:h-[600px] h-[500px] items-center bg-[#D9D9D9]'>
-            <div className='w-[90%] h-[400px] sm:h-[500px] flex flex-col sm:flex-row sm:items-start  md:gap-[50px] gap-[30px]  '>
+        <section className='w-full flex  justify-center  sm:h-[400px] h-[450px] items-center  sm:mt-[50px]'>
+            <div className='w-[90%] h-[400px] sm:h-[400px] flex flex-col sm:flex-row sm:items-start   md:gap-[50px] gap-[30px]  '>
                 <div className='self-center sm:self-start flex sm:items-start items-center flex-col '>
                     <h1 className='lg:text-[34px] md:text-[28px] sm:text-[20px]   font-semibold lg:w-[297px] sm:w-[180px] text-[#2F2F2F]'>
                         Crafted with excellent material.
