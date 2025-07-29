@@ -1,6 +1,7 @@
 import Chooseus from "@/components/chooseus";
 import Header from "@/components/header";
 import Hero from "@/components/hero";
+import Moderndesign from "@/components/moderndesign";
 import Products from "@/components/products";
 
 
@@ -11,6 +12,7 @@ export default function Home() {
     <Hero/>
     <Products/>
     <Chooseus/>
+    <Moderndesign/>
    
 
   
