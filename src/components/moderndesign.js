@@ -25,7 +25,7 @@ const Moderndesign = () => {
               We help you make Modern Interior Design
             </p>
             <p className="text-[14px] leading-[24px] text-[#6A6A6A] mt-[28px]">
-               Transform your space with elegant, functional, and modern pieces tailored to your taste. Whether you're decorating a new home or refreshing a room, we offer timeless styles and quality craftsmanship to bring your vision to life.
+               Transform your space with elegant, functional, and modern pieces tailored to your taste. Whether you are decorating a new home or refreshing a room, we offer timeless styles and quality craftsmanship to bring your vision to life.
             </p>
             <ul className=" grid grid-cols-2 gap-[20px] lg:mt-[50px] md:mt-[20px] mt-[30px]">
                 <li className=" text-[#6A6A6A] lg:text-[18px] text-[14px] lg:w-[194px] ">Thoughtfully designed for modern living</li>
