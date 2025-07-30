@@ -7,7 +7,7 @@ const Header = () => {
   const [open, setOpen] = useState(false);
   return (
     <>
-      <header className="flex w-full fixed top-0 left-0 right-0 z-100 justify-center items-center md:h-[100px] h-[80px] xl:bg-[orange] lg:bg-[yellow] md:bg-[green] sm:bg-[red] bg-[#3B5D50]">
+      <header className="flex w-full fixed top-0 left-0 right-0 z-100 justify-center items-center md:h-[100px] h-[80px]  bg-[#3B5D50]">
         <div className="flex justify-between items-center w-[85%]">
           <div className="flex gap-[20px] items-center">
             <div className="relative ">
