@@ -4,6 +4,7 @@ import Display from "@/components/display";
 import Header from "@/components/header";
 import Hero from "@/components/hero";
 import Moderndesign from "@/components/moderndesign";
+import Newsletter from "@/components/newsletter";
 import Products from "@/components/products";
 import Testimonial from "@/components/testimonial";
 
@@ -19,6 +20,7 @@ export default function Home() {
     <Display/>
     <Testimonial/>
     <Blog/>
+    <Newsletter/>
    
 
   

@@ -8,8 +8,8 @@ const Blog = () => {
     const images= [img1, img2, img3];
   return (
             <>
-            <section className='w-full flex justify-center mt-[50px] pb-[50px]'>
-                <div className='w-[85%] h-[300px]  flex flex-col'>
+            <section className='w-full flex justify-center  mt-[50px] md:mt-0 lg:mt-[50px] pb-[50px]'>
+                <div className='w-[85%]  flex flex-col'>
                     <div className='flex justify-between items-center'>
                         <p className='font-semibold md:text-[34px] sm:text-[24px] text-[18px] leading-[41px] text-[#2F2F2F]'>
                             Recent Blog
@@ -19,7 +19,7 @@ const Blog = () => {
                         </p>
                     </div>
                     <div className='flex sm:flex-row flex-col sm:justify-between sm:items-center mt-[36px] sm:gap-0 gap-[30px]'>
-                      {images.map((image,index)=>  <div key={index} className='xl:w-[360px] lg:w-[280px] md:w-[220px] sm:w-[180px]  cursor-pointer sm:h-[344px]  flex flex-col gap-[20px] '>
+                      {images.map((image,index)=>  <div key={index} className='xl:w-[360px] lg:w-[280px] md:w-[220px] sm:w-[180px]  cursor-pointer lg:h-[344px]  flex flex-col gap-[20px] '>
                             <Image src={image} alt='a blogpost thumbnail' className='w-[100%]'/>
                             <div>
                                   <p className='lg:text-[18px] md:text-[14px] sm:text-[12px] font-semibold text-[#2F2F2F]'>
