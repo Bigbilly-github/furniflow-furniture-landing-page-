@@ -21,13 +21,13 @@ const Moderndesign = () => {
             />
           </div>
           <div className="lg:w-[450px] md:w-[380px]">
-            <p className="lg:text-[34px] md:text-[28px] font-semibold leading-[41px]  text-[#2F2F2F]">
+            <p className="lg:text-[34px] md:text-[28px] text-[24px] w-[300px] sm:w-[100%] font-semibold leading-[41px]  text-[#2F2F2F]">
               We help you make Modern Interior Design
             </p>
             <p className="text-[14px] leading-[24px] text-[#6A6A6A] mt-[28px]">
                Transform your space with elegant, functional, and modern pieces tailored to your taste. Whether you're decorating a new home or refreshing a room, we offer timeless styles and quality craftsmanship to bring your vision to life.
             </p>
-            <ul className="list-disc grid grid-cols-2 gap-[20px] pl-5 lg:mt-[50px] md:mt-[20px] mt-[30px]">
+            <ul className=" grid grid-cols-2 gap-[20px] lg:mt-[50px] md:mt-[20px] mt-[30px]">
                 <li className=" text-[#6A6A6A] lg:text-[18px] text-[14px] lg:w-[194px] ">Thoughtfully designed for modern living</li>
                  <li className=" text-[#6A6A6A] lg:text-[18px] text-[14px] lg:w-[194px]">Built with durable, premium materials</li>
                   <li className=" text-[#6A6A6A] lg:text-[18px] text-[14px] lg:w-[194px]">Easy to style with any interior theme</li>
