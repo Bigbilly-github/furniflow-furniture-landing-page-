@@ -1,3 +1,4 @@
+import Blog from "@/components/blog";
 import Chooseus from "@/components/chooseus";
 import Display from "@/components/display";
 import Header from "@/components/header";
@@ -17,6 +18,7 @@ export default function Home() {
     <Moderndesign/>
     <Display/>
     <Testimonial/>
+    <Blog/>
    
 
   
