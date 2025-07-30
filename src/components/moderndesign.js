@@ -2,7 +2,7 @@ import Image from "next/image";
 import img1 from "../../public/svg/moderndesign/img1.svg";
 import img2 from "../../public/svg/moderndesign/img2.svg";
 import img3 from "../../public/svg/moderndesign/img3.svg";
-import marker from "../../public/svg/moderndesign/marker.svg";
+import React from "react";
 
 
 
