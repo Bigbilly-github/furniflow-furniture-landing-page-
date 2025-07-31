@@ -1,15 +1,21 @@
+"use client"
 import Image from "next/image";
+
 import React from "react";
 import couchimg from "../../public/svg/newsletter/sofa1.svg";
 import envimg from "../../public/svg/newsletter/envelope.svg";
 import rectangle from "../../public/svg/newsletter/Rectangle 15.svg";
 import paperplaneimg from "../../public/svg/newsletter/paper-plane.svg";
+import { motion } from "framer-motion";
 
 const Newsletter = () => {
   return (
     <>
       <section className="flex w-full justify-center pb-[50px]">
-        <div className="w-[85%]  flex justify-between items-center">
+        <motion.div className="w-[85%]  flex justify-between items-center"
+         initial={{ opacity: 0, x: -200 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          transition={{ duration: 2.5, ease: "easeInOut" }}>
           <div className="flex flex-col gap-[24px]">
             <div className="flex gap-[12px] items-center">
               <Image src={envimg} alt="an envelope icon" />
@@ -39,7 +45,7 @@ const Newsletter = () => {
             </div>
           </div>
           <Image src={couchimg} alt="couch image" className="hidden lg:block" />
-        </div>
+        </motion.div>
       </section>
     </>
   );

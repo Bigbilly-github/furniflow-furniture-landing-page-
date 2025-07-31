@@ -1,9 +1,12 @@
+"use client";
+import React from "react";
 import Image from "next/image";
 import image1 from "../../public/svg/chooseus/image1.svg";
 import truckicon from "../../public/svg/chooseus/Truck.svg";
 import bagicon from "../../public/svg/chooseus/Shop bag.svg";
 import returnicon from "../../public/svg/chooseus/Return.svg";
 import supporticon from "../../public/svg/chooseus/Support.svg";
+import { motion } from "framer-motion";
 
 const Chooseus = () => {
   const details = [
@@ -34,8 +37,12 @@ const Chooseus = () => {
   ];
   return (
     <>
-      <section className="w-full flex justify-center  mt-[50px]">
-        <div className="w-[85%]  flex md:justify-between md:flex-row  flex-col gap-[50px] lg:gap-0 items-center">
+      <section className="w-full flex justify-center  mt-[50px]"
+        >
+        <motion.div className="w-[85%]  flex md:justify-between md:flex-row  flex-col gap-[50px] lg:gap-0 items-center"
+         initial={{ opacity: 0, x: 200 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          transition={{ duration: 2.5, ease: "easeInOut" }}>
           <div className="flex flex-col gap-[50px] ">
             <div className="self-center md:self-start">
               <h1 className="lg:text-[34px] text-[28px] font-semibold leading-[41px] text-[#2F2F2F]">
@@ -72,7 +79,7 @@ const Chooseus = () => {
               className="md:w-[400px] md:block hidden  lg:w-[450px] xl:w-[540px]"
             />
           </div>
-        </div>
+        </motion.div>
       </section>
     </>
   );

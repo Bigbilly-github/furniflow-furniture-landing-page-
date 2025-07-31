@@ -1,8 +1,10 @@
+"use client"
 import Image from "next/image";
 import React from "react";
 import product1 from "../../public/svg/display/product-1.svg";
 import product2 from "../../public/svg/display/product-2.svg";
 import product3 from "../../public/svg/display/product-3.svg";
+import { motion } from "framer-motion";
 
 const Display = () => {
   const displayitems = [
@@ -24,8 +26,11 @@ const Display = () => {
   ];
   return (
     <>
-      <section className="xl:flex w-full justify-center mt-[50px] hidden mt-[200px] pb-[50px]">
-        <div className="w-[85%]  flex justify-between   ">
+      <section className="xl:flex w-full justify-center mt-[50px] hidden lg:mt-[200px] pb-[50px]">
+        <motion.div className="w-[85%]  flex justify-between   "
+         initial={{ opacity: 0, x: 200 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          transition={{ duration: 2.5, ease: "easeInOut" }}>
           {displayitems.map((items, index) => (
             <div key={index} className="flex gap-[30px] items-center ">
               <div className="bg-[#35736E30] w-[125px] h-[91px] relative rounded-[10px]">
@@ -49,7 +54,7 @@ const Display = () => {
               </div>
             </div>
           ))}
-        </div>
+        </motion.div>
       </section>
     </>
   );

@@ -31,7 +31,7 @@ const Header = () => {
                           item === "Home"
                             ? "underline underline-offset-6 decoration-[#F9BF29] decoration-3  opacity-100"
                             : ""
-                        } text-[14px]  hover:opacity-100 text-white opacity-50`}
+                        } text-[14px] cursor-pointer  hover:opacity-100 text-white opacity-50`}
                       >
                         {item}
                       </li>
@@ -56,7 +56,7 @@ const Header = () => {
                       item === "Home"
                         ? "underline underline-offset-6 decoration-[#F9BF29] decoration-5  opacity-100"
                         : ""
-                    } hover:opacity-100 text-white opacity-50`}
+                    } hover:opacity-100 cursor-pointer text-white opacity-50`}
                   >
                     {item}
                   </li>

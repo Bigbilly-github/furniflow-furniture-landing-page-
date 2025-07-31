@@ -40,7 +40,10 @@ const Products = () => {
               Explore
             </button>
           </div>
-          <div className="flex flex-1 justify-between  ">
+          <motion.div className="flex flex-1 justify-between  "
+          initial={{ opacity: 0, x: 100 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          transition={{ duration: 2.5, ease: "easeInOut" }}>
             {products.map((product, index) => (
               <motion.div
                 key={index}
@@ -67,7 +70,7 @@ const Products = () => {
                 </div>
               </motion.div>
             ))}
-          </div>
+          </motion.div>
         </div>
       </section>
     </>
